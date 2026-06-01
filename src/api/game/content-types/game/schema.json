@@ -57,24 +57,6 @@
     },
     "featured": {
       "type": "boolean"
-    },
-    "faq1Question": {
-      "type": "string"
-    },
-    "faq1Answer": {
-      "type": "string"
-    },
-    "faq2Question": {
-      "type": "string"
-    },
-    "faq2Answer": {
-      "type": "string"
-    },
-    "faq3Question": {
-      "type": "string"
-    },
-    "faq3Answer": {
-      "type": "string"
     }
   }
 }

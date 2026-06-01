@@ -492,12 +492,6 @@ export interface ApiGameGame extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     description: Schema.Attribute.Blocks;
     developer: Schema.Attribute.String;
-    faq1Answer: Schema.Attribute.String;
-    faq1Question: Schema.Attribute.String;
-    faq2Answer: Schema.Attribute.String;
-    faq2Question: Schema.Attribute.String;
-    faq3Answer: Schema.Attribute.String;
-    faq3Question: Schema.Attribute.String;
     featured: Schema.Attribute.Boolean;
     gameDescription: Schema.Attribute.RichText;
     howToRedeem: Schema.Attribute.RichText;
