@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "robloxUrl": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lastChecked": {
+      "type": "datetime"
+    },
+    "codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::code.code",
+      "mappedBy": "game"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "howToRedeem": {
+      "type": "richtext"
+    },
+    "gameDescription": {
+      "type": "richtext"
+    },
+    "robloxGameId": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "faq1Question": {
+      "type": "string"
+    },
+    "faq1Answer": {
+      "type": "string"
+    },
+    "faq2Question": {
+      "type": "string"
+    },
+    "faq2Answer": {
+      "type": "string"
+    },
+    "faq3Question": {
+      "type": "string"
+    },
+    "faq3Answer": {
+      "type": "string"
+    }
+  }
+}
